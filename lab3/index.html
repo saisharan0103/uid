@@ -1,0 +1,144 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: rgb(1, 0, 0);  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+   
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body>  
+  <table>
+      <tr>
+        <!-- <th><img src="logo.png" width="100" height="100"></th><th width=1400></th><th><img src="amrita.png" width="150" height="75"></th> -->
+        </tr>
+        </table>
+<form>  
+  <div class="container">  
+  <center>  <h1>Registration Form</h1> </center>  
+  <hr>  
+  <label> Firstname </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+   
+<label> Lastname: </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+<label>   
+Select Branch :  
+</label>   
+  
+<select>  
+<option value="Course">Branch</option>  
+<option value="BCA">CSE-A</option>  
+<option value="BBA">CSE-B</option>  
+<option value="B.Tech">CSE-C</option>  
+<option value="MBA">CYS</option>  
+<option value="MCA">AIE</option>  
+<option value="M.Tech">CCE</option>  
+<option value="MCA">Mech</option>
+<option value="MCA">ECE</option>
+</select>  
+</div> 
+<div>
+<label>   
+Select Country:  
+</label>   
+  
+<select>  
+<option value="Course">Country</option>  
+<option value="BCA">India</option>  
+<option value="BBA">USA</option>  
+<option value="B.Tech">Russia</option>  
+<option value="MBA">UK</option>  
+<option value="MCA">Australia</option>  
+<option value="M.Tech">Sri Lanka</option>  
+<option value="MCA">China</option>
+<option value="MCA">Bangladesh</option> 
+</select>  
+</div> 
+
+<div>  
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div>  
+<label>   
+Phone :  
+</label>  
+   
+<input type="text" name="phone" placeholder="Phone no." size="10"/ required>   
+Current Address :  
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">Register</button>    
+</form>
+
+<style>
+footer {
+  
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: brown;
+  color: white;
+  text-align: center;
+}
+</style>
+
+<footer>
+  <p>Copyright &copy; 2022 Cyber Solutions Fest.</p>
+</footer>
+   
+</body>  
+</html>  
