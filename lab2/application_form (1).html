@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <title>
+        Application Form
+    </title>
+
+    <style>
+      body {
+      background-color: rgb(3, 3, 3);
+    }
+    </style>
+  </head>
+  <body  text="#ffffff"> 
+  <table align=left>
+    <tr>
+      <th width=80 height=80><img src="logo01.png" width=150 height=80></th><th width=350 height=80><font size="7" face="Brush script Mt" style="color:greenyellow;">Application Form</font></th>
+    </tr></table>
+    <br><br><br><br><br>
+
+<form action="SEND ADDRESS" id="ft-form" method="POST" accept-charset="UTF-8" enctype="multipart/form-data">
+  
+  <fieldset>
+    <legend align=center><h2>Personal data</h2></legend>
+    <div class="two-cols">
+      <label>
+        First name *
+        <input type="text" name="First name" required>
+      </label>
+      <label>&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last name *
+        <input type="text" name="Family name" required><br>
+      </label>
+    </div><br>
+    <div class="two-cols">
+      <label>
+        Citizenship&nbsp;&nbsp;
+        <input type="text" name="Citizenship">
+      </label>
+      <label>&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date of birth
+        <input type="date" name="Date of birth">
+      </label>
+    </div>
+    <br>
+    <label>
+      Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" name="Address">
+    </label><br>
+    <div class="two-cols"><br>
+      <label>
+        ZIP Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="ZIP">
+      </label>
+      <label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        City       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="City">
+      </label>
+    </div>
+    <br>
+    <div class="two-cols">
+      <label>
+        Phone *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="tel" name="Phone" required>
+      </label>
+      <label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email address *
+        <input type="email" name="Email" required>
+      </label>
+    </div>
+    <br>
+  </fieldset>
+ 
+  <div class="btns">
+    <input type="text" name="_gotcha" value="" style="display:none;"><br>
+    <input type="submit" value="Submit application" style="color: darkblue">
+  </div>
+</form><br><br>
+<marquee bgcolor="#ffffff" height="100"></marquee>
+</body>
+</html>
