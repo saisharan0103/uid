@@ -1,0 +1,22 @@
+     h3{
+		 font-family: sans-serif;
+	   }
+	   body{
+		   background-color: black;
+		   height: 70px;
+	   }
+	  
+	  div.main{
+			      background-color: aliceblue;
+				  border-radius:10px;
+				  padding: 10px 200px 20px 40px;
+				  margin-left: 200px;
+				  margin-right: 200px;
+				  margin-top: 50px;
+				  position: -ms-page ;
+				  top:10px;
+				  left:230px;
+			  }
+	  .mai{
+		  margin-left:20px;
+	  }
